@@ -18,7 +18,7 @@ def numberOfWays(startPos: int, endPos: int, k: int) -> int:
     *Line added to test version control*
     """
     # start with path of length 1
-    paths = [startPos]
+    paths = [[startPos]]
 
     # loop k times
     for i in tqdm(range(k)):
