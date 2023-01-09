@@ -14,6 +14,8 @@ def numberOfWays(startPos: int, endPos: int, k: int) -> int:
     Given a positive integer k, return the number of different ways to
     reach the position endPos starting from startPos, such that you
     perform exactly k steps.
+
+    *Line added to test version control*
     """
     # start with path of length 1
     paths = [startPos]
